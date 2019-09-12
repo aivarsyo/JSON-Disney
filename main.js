@@ -30,5 +30,7 @@ function showDisney(disneyData){
     copy.querySelector(".occupation").textContent=disneyData.gsx$occupation.$t;
     copy.querySelector(".personality").textContent=disneyData.gsx$personality.$t;
     copy.querySelector(".zodiacsign").textContent=disneyData.gsx$zodiacsign.$t;
+    copy.querySelector(".zodiacsign").textContent=disneyData.gsx$zodiacsign.$t;
     document.querySelector("main").appendChild(copy);
 }
+
